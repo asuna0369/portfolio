@@ -1,0 +1,104 @@
+.all-projects {
+  padding: 100px 80px;
+  background-color: #0f0f0f;
+  color: white;
+}
+
+.all-projects h1 {
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 80px;
+  color: #ff00ff;
+}
+
+.project-card {
+  margin-bottom: 80px;
+  background-color: #1e1e1e;
+  padding: 40px;
+  border-radius: 15px;
+  border-left: 5px solid #b415ff;
+}
+
+.project-card h2 {
+  font-size: 32px;
+  color: #df8908;
+  margin-bottom: 20px;
+}
+
+.project-card p {
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  color: #ccc;
+  white-space: pre-line;
+
+}
+
+.project-images {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  
+}
+
+.project-image {
+  width: 600px;
+  height: 300px;
+  border-radius: 10px;
+  border: 2px solid #444;
+  transition: transform 0.3s;
+  object-fit: cover;
+}
+
+.project-image-mobile {
+  width: auto !important;
+  height: 300px !important;
+  object-fit: contain !important;
+  background-color: #000; /* ou transparent si tu préfères */
+}
+
+
+
+
+.project-images img:hover {
+  transform: scale(1.05);
+}
+.back-home-container {
+  text-align: center;
+  margin-top: 40px;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1000;
+}
+
+.back-home-btn {
+  display: inline-block;
+  padding: 15px 30px;
+  background: linear-gradient(270deg, #DF8908, #B415FF);
+  color: white;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.back-home-btn:hover {
+  transform: scale(1.05);
+  background: linear-gradient(270deg, #B415FF, #DF8908);
+}
+
+.project-title-link {
+  text-decoration: none;
+}
+
+.project-title-link h2 {
+  color: #df8908;
+  transition: color 0.3s;
+}
+
+.project-title-link:hover h2 {
+  color: #ff00ff;
+  cursor: pointer;
+}
