@@ -1,9 +1,9 @@
 import project1 from '@/assets/yuppie.PNG'
 import project2 from '@/assets/biblio.jpg'
-import project3 from '@/assets/loyaltea.png'
-import project4 from '@/assets/asunabijoux.png'
-import project5 from '@/assets/pointgame.png'
-import project6 from '@/assets/asuna_music.png'
+import project3 from '@/assets/loyaltea.PNG'
+import project4 from '@/assets/asunabijoux.PNG'
+import project5 from '@/assets/pointgame.PNG'
+import project6 from '@/assets/asuna_music.PNG'
 
 const mywork_data = [
   {
