@@ -1,4 +1,4 @@
-import project1 from '@/assets/yuppie.png'
+import project1 from '@/assets/yuppie.PNG'
 import project2 from '@/assets/biblio.jpg'
 import project3 from '@/assets/loyaltea.png'
 import project4 from '@/assets/asunabijoux.png'
