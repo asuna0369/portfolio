@@ -30,6 +30,7 @@
   line-height: 32px;
   color: #ccc;
 }
+
 .back-home-container {
   text-align: center;
   margin-top: 40px;
@@ -51,16 +52,14 @@
   background: linear-gradient(270deg, #B415FF, #DF8908);
 }
 
-
 .return-top,
 .return-bottom {
   text-align: center;
   margin-bottom: 40px;
-  position: fixed;   /* fixe la position à l'écran */
-  top: 20px;         /* distance du haut pour celui en haut */
-  left: 20px;        /* positionné à gauche */
-  z-index: 1000;     /* pour être au-dessus des autres éléments */
-
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1000;
 }
 
 .return-button {
@@ -73,7 +72,6 @@
   border-radius: 30px;
   font-weight: bold;
   transition: 0.3s;
-  
 }
 
 .return-button:hover {
@@ -81,3 +79,94 @@
   transform: scale(1.05);
 }
 
+/* TABLETTE */
+@media (max-width: 1024px) {
+  .services-detail-page {
+    padding: 80px 40px;
+  }
+
+  .services-detail-page h1 {
+    font-size: 48px;
+  }
+
+  .service-block {
+    padding: 30px;
+  }
+
+  .service-block h2 {
+    font-size: 28px;
+  }
+
+  .service-block p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .return-button {
+    font-size: 16px;
+    padding: 12px 25px;
+  }
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .services-detail-page {
+    padding: 60px 20px;
+  }
+
+  .services-detail-page h1 {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+
+  .service-block {
+    padding: 25px;
+    margin-bottom: 50px;
+    border-left-width: 4px;
+  }
+
+  .service-block h2 {
+    font-size: 24px;
+  }
+
+  .service-block p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .return-button {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
+  .back-home-btn {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
+  .return-top {
+    top: 10px;
+    left: 10px;
+  }
+}
+
+/* TRES PETITS ECRANS */
+@media (max-width: 480px) {
+  .services-detail-page h1 {
+    font-size: 28px;
+  }
+
+  .service-block h2 {
+    font-size: 20px;
+  }
+
+  .service-block p {
+    font-size: 14px;
+  }
+
+  .return-button,
+  .back-home-btn {
+    font-size: 12px;
+    padding: 8px 16px;
+  }
+}

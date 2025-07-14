@@ -31,14 +31,12 @@
   margin-bottom: 30px;
   color: #ccc;
   white-space: pre-line;
-
 }
 
 .project-images {
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
-  
 }
 
 .project-image {
@@ -54,15 +52,13 @@
   width: auto !important;
   height: 300px !important;
   object-fit: contain !important;
-  background-color: #000; /* ou transparent si tu préfères */
+  background-color: #000;
 }
-
-
-
 
 .project-images img:hover {
   transform: scale(1.05);
 }
+
 .back-home-container {
   text-align: center;
   margin-top: 40px;
@@ -101,4 +97,88 @@
 .project-title-link:hover h2 {
   color: #ff00ff;
   cursor: pointer;
+}
+
+/* TABLETTE */
+@media (max-width: 1024px) {
+  .all-projects {
+    padding: 80px 40px;
+  }
+
+  .all-projects h1 {
+    font-size: 48px;
+    margin-bottom: 60px;
+  }
+
+  .project-card {
+    padding: 30px;
+  }
+
+  .project-card h2 {
+    font-size: 28px;
+  }
+
+  .project-card p {
+    font-size: 18px;
+  }
+
+  .project-image {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .all-projects {
+    padding: 60px 20px;
+  }
+
+  .all-projects h1 {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+
+  .project-card {
+    padding: 25px;
+    border-left-width: 4px;
+  }
+
+  .project-card h2 {
+    font-size: 24px;
+  }
+
+  .project-card p {
+    font-size: 16px;
+  }
+
+  .project-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .back-home-btn {
+    padding: 12px 20px;
+    font-size: 16px;
+  }
+}
+
+/* TRÈS PETITS ÉCRANS */
+@media (max-width: 480px) {
+  .all-projects h1 {
+    font-size: 28px;
+  }
+
+  .project-card h2 {
+    font-size: 20px;
+  }
+
+  .project-card p {
+    font-size: 14px;
+  }
+
+  .back-home-btn {
+    font-size: 14px;
+    padding: 10px 16px;
+  }
 }
