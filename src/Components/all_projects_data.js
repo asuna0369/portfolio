@@ -41,7 +41,7 @@ const allProjects = [
     title: "Portfolio Personnel",
     description: "Site web personnel développé avec React.js et stylisé à l’aide de Tailwind CSS, conçu pour présenter de manière claire et dynamique mes compétences techniques, les services que je propose ainsi qu’une sélection de mes projets récents.\nCe portfolio reflète à la fois mon parcours de développeuse, mon sens du design et ma capacité à créer des interfaces modernes, réactives et professionnelles, tout en mettant en avant mon expertise dans des domaines tels que le développement web, la conception logicielle et l'intelligence artificielle.",
     images: [img1,img4,img2,img3],
-    link: "http://localhost:5173/all-projects", 
+    link: "https://portfolio-al2x.vercel.app/", 
   },
   {
     id:"",

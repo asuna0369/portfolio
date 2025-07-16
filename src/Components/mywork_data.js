@@ -17,7 +17,7 @@ const mywork_data = [
     w_no: 2,
     w_name: "Portfolio personnel (local)",
     w_img: project2,
-    link: null, // projet local,
+    link: "https://portfolio-al2x.vercel.app/", // projet local,
     w_desc: "Ceci est mon portfolio personnel développé avec React. Il contient les sections À propos, Services, Projets, et Contact.",
     w_images: [project1, project2, project3],
     anchor: "biblio"
