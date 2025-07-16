@@ -33,7 +33,7 @@
 
 .back-home-container {
   text-align: center;
-  margin-top: 40px;
+  margin-top: 10px;
 }
 
 .back-home-btn {
@@ -144,10 +144,10 @@
     padding: 10px 20px;
   }
 
-  .return-top {
+  /* .return-top {
     top: 10px;
     left: 10px;
-  }
+  } */
 }
 
 /* TRES PETITS ECRANS */
