@@ -4,6 +4,9 @@
 }
 /* Empêche le scroll horizontal */
 
+body {
+  overflow-x: hidden; /* empêche le scroll horizontal */
+}
 
 body{
     height: 100vh;
